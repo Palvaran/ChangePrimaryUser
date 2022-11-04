@@ -8,4 +8,5 @@ Originally, following the article from March 21st, 2020 at https://svdbusse.gith
 References:
 
 David Falkus GITHUB @ https://github.com/microsoftgraph/powershell-intune-samples/tree/master/ManagedDevices#8-win10_primaryuser_getps1
+
 Stefan van der Busse GITHUB @ https://github.com/svdbusse/IntuneScripts/blob/master/PrimaryUser/Set-PrimaryUserfromLastLogIn.ps1
