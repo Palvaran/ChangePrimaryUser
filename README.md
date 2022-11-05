@@ -5,7 +5,7 @@ There is a need to change the Primary User inside Azure Active Directory to use 
 
 Originally, following the article from March 21st, 2020 at https://svdbusse.github.io/SemiAnnualChat/2020/03/21/Changing-Intune-Primary-User-To-Last-Logged-On-User.html had some great ideas and options, but over time, the code has not been updated and needs some changes such as error checking due to functions having changed.
 
-Use version ChangePrimaryUser_v6.ps1 to get past the MS Graph API page limits.
+Use version ChangePrimaryUser_v6a.ps1 to get past the MS Graph API page limits.
 
 
 References:
