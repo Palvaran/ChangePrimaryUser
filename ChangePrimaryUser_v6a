@@ -474,6 +474,7 @@ Foreach ($Device in $Devices){
 
         #Get the objectID of the last logged in user for the device, which is the last object in the list of usersLoggedOn
         $LastLoggedInUser = ($Device.usersLoggedOn[-1]).userId
+        Write-Host "Last Logged on UserID is: $LastLoggedInUser"
 
         #Using the objectID, get the user from the Microsoft Graph for logging purposes
         $User = Get-AADUser -userPrincipalName $LastLoggedInUser -ErrorAction SilentlyContinue
